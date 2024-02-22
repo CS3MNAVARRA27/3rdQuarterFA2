@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Second Page</title>
+	</head>
+    <body>
+    <button onclick="ChangePic()">Change Image</button>
+    <button onclick="RevertPic()">Revert Image</button>
+
+    <img id="Image" src="bibble.jpg" width="200" height="200">
+    </body>
+    <script>
+        function ChangePic() {
+            document.getElementById("Image").src = "bibble.jpg";
+        }
+        function RevertPic() {
+            document.getElementById("Image").src = "bib.jpg";
+        }
+    </script>
+</html>
